@@ -5,8 +5,8 @@ public class C03_Concate {
         //concat yapmak için iki ihtimalimiz var daha önce yaptıgımız gibi +operatörünü kullanabiliriz
         //yada string class dan concat methodunu kullanabiliriz
 
-        String str1="java";
-        String str2="candır";
+        String str1="AHMET";
+        String str2="JAVA";
 
         //java candır yazdıralım
         System.out.println(str1 + " " + str2);//+ method
