@@ -7,15 +7,15 @@ public class C04_Haftaiçisorusu {
         //kullanıcıdan gün ismini alın ve haftaiçi veya haftasonu oldugunu yazdırın
         Scanner scan = new Scanner(System.in);
         System.out.println("lütfen  günismi yazınız");
-        String günİsmi = scan.next().toUpperCase();//kullanıcı nasıl yazarsa yazsın biz küçük harfe ceviriyoruz
+        String günIsmi = scan.next().toUpperCase();//kullanıcı nasıl yazarsa yazsın biz küçük harfe ceviriyoruz
 
-        if (günİsmi.equals("PAZAR") || günİsmi.equals("cumartesi")) {
+        if (günIsmi.equals("PAZAR") || günIsmi.equals("cumartesi")) {
             System.out.println("girdiginiz gün haftasonu");
         }
 
 
-        if (günİsmi.equals("pazartesi") || günİsmi.equals("salı") ||
-                günİsmi.equals("ÇARŞAMBA") || günİsmi.equals("perşembe") || günİsmi.equals("cuma")) {
+        if (günIsmi.equals("pazartesi") || günIsmi.equals("salı") ||
+                günIsmi.equals("ÇARŞAMBA") || günIsmi.equals("perşembe") || günIsmi.equals("cuma")) {
             System.out.println("girdiginizgün haftaiçi");
         }
 
